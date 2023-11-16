@@ -1,0 +1,76 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(2,0,160,1) 100%, rgba(9,9,121,1) 100%, rgba(9,9,121,1) 100%);
+}
+    .to{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .container{
+        margin: 20px;
+        width: 600px;
+        height:auto;
+        background-color: greenyellow;
+        padding: 20px;
+        border-radius: 20px;
+      
+        /* flex: 1; */
+    }
+    .rules{
+        margin: 70px;
+       
+        
+        width: 400px;
+        height:auto;
+        background-color: gray;
+        padding: 20px;
+        border-radius: 20px;
+        /* flex: 1; */
+    }.rules p{
+        color: white;
+    }
+    input,select{
+        margin: 10px;
+        width: 100px;
+        background-color:bisque;
+        border-radius: 10px;
+        border: 1px solid black;
+        padding: 10px;
+    }
+    .box{
+        width: 500px;
+        height: auto;
+        color: red;
+        font-size: 15px;
+        margin: 10px;
+    }
+    button{
+        background-color: green;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+    button:hover
+    {
+        background-color: rgb(48, 165, 48);
+    }
+    @media screen and (max-width:400px) {
+
+        .container{
+            text-align: center;
+        }
+        .container input{
+           
+            width: 400px;
+        }
+        .rules{
+          background-color: aquamarine;
+          max-width: 500px;
+        }
+        
+    }

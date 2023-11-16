@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/Age.css">
+</head>
+<body>
+    <div class="to">
+        <div class="container shadow-lg">
+            <h2 class="text-center">Age Calculator</h2>
+            
+        
+                DATE:
+                <input type="number" id="date" required>
+                MONTH:
+                <input type="number" id="mon" required>
+        
+                YEAR:
+                <input type="number" id="year" required>
+                <br>
+                <button onclick="AGE()">Calculate</button>
+                <button onclick="reset()">Clear</button>
+        <div class="box">
+            <p id="msg"></p>
+         </div>
+        </div>
+        <div class="rules">
+         <h3 class="text-center">Rules </h3>
+         <p>*Date should be range between 1-31</p>
+         <p>*Month should be range between 1-12</p>
+         <p>*Negatives  Not Allowed</p>
+        </div>
+
+    </div>
+    <script src="../JS/logic.js"></script>
+</body>
+</html>
